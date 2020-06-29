@@ -17,6 +17,6 @@ jobs:
         pip install pylint
         pip install pytest
     - name: Test
-      run: pytest tests
+      run: pytest testing
     - name: Lint
       run: pylint add.py
